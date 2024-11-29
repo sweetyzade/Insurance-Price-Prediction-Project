@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insurance Price Prediction Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            text-align: center;
+            color: #007bff;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 20px;
+            text-align: center;
+            margin-top: 30px;
+        }
+        .result {
+            font-size: 24px;
+            font-weight: bold;
+            color: #28a745; /* green color */
+        }
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+        }
+        .footer p {
+            font-size: 14px;
+            color: #666;
+        }
+        .link {
+            color: #007bff;
+            text-decoration: none;
+            margin-top: 20px;
+            display: inline-block;
+        }
+        .link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Insurance Price Prediction Result</h2>
+        <p>Predicted Insurance Price: <span class="result">${{ prediction }}</span></p>
+    </div>
+    <div class="footer">
+        <p><a href="/" class="link">Predict Again</a></p>
+        <p>&copy; 2024 Insurance Predictor App</p>
+    </div>
+</body>
+</html>
